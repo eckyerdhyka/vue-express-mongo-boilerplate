@@ -18,8 +18,6 @@ Inspired by [dstroot/skeleton](https://github.com/dstroot/skeleton) and [sahat/h
 
 *This is just my personal boilerplate, it may or may not be a good fit for your project(s).*
 
-If you like my work, please **[donate](https://www.paypal.me/meregnorbert)**. Thank you!
-
 ### [Live Demo](http://vemapp.e-paper.space/) (login: test/test1234)
 
 ## Features
@@ -50,8 +48,8 @@ If you like my work, please **[donate](https://www.paypal.me/meregnorbert)**. Th
 * [x] [Babel](https://babeljs.io/)
 * [x] [Passwordless](https://www.sitepoint.com/passwordless-authentication-works/) mode
 * [x] [Passport.JS](http://passportjs.org/)
-	* Social signup/login with Facebook, Google, Twitter and Github
-	* API key authentication for REST API calls
+  * Social signup/login with Facebook, Google, Twitter and Github
+  * API key authentication for REST API calls
 * [x] [Toastr](https://github.com/CodeSeven/toastr)
 * [x] [vue-form-generator](https://github.com/icebob/vue-form-generator)
 
@@ -75,7 +73,7 @@ yarn
 
 For development
 ```bash
-$ npm run dev
+$ npm run dev (if error check your nodemon package => npm install -g nodemon)
 ```
 
 Build web app scripts and styles:
@@ -157,10 +155,10 @@ If you want to bundle your NodeJS server-side code run webpack on server code wi
 
 If you want to export bundled version copy these folders & files to the new place:
 - server
-	- locales
-	- public
-	- views
-	- bundle.js
+  - locales
+  - public
+  - views
+  - bundle.js
 - package.json
 - config.js (optional)
 
